@@ -1,5 +1,5 @@
 .htaccess
-css.php
+.directory
 rpc/
 sites/site*/admin/
 sites/site*/private/
