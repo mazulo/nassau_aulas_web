@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	height: 100%;
+	width: 100%;
+}
+
+#wrapper-content {
+	width: 960px;
+	margin: 0 auto;
+}
+
+#form {
+	background: #ccc;
+	margin: 0 auto;
+	width: 450px;
+	padding: 30px;
+}
+
+#form form {
+	margin-left: 40px;
+}
+
+#form h1 {
+	text-align: center;
+	color: #777;
+	margin-bottom: 20px;
+}
+
+#form div {
+	clear: both;
+	margin-bottom: 10px;
+}
+
+#form div:last-child {
+	margin-left: 80px;
+}
+
+#form label {
+	text-transform: uppercase;
+	margin-right: 30px;
+	float: left;
+	width: 50px;
+}
+
+#form input {
+	width: 200px;
+}

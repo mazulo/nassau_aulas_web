@@ -1,0 +1,48 @@
+<html>
+<head>
+	<title>Formulário</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+
+	<div id="wrapper">
+		<div id="wrapper-content">
+			<div id="form">
+				<h1>Formulário de acesso</h1>
+				<p><?php echo "string"; ?></p>
+				<form action="form.php" method="POST">
+					<div>
+						<label name="nome">Nome</label>
+						<input type="text" name="nome">
+					</div>
+					<div>
+						<label name="cpf">cpf</label>
+						<input type="text" name="cpf">
+					</div>
+					<div>
+						<label name="usuario">usuário</label>
+						<input type="text" name="usuario">
+					</div>
+					<div>
+						<label name="senha">senha</label>
+						<input type="password" name="senha">
+					</div>
+					<div>
+						<label name="email">email</label>
+						<input type="text" name="email">
+					</div>
+					<div>
+						<label name="cidade">cidade</label>
+						<input type="text" name="cidade">
+					</div>
+					<div>
+						<input type="submit" value="Enviar">
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
